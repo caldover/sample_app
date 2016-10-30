@@ -39,3 +39,18 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+
+Lessons Learned:
+- Review of the full procedure:
+  - Creating a new Rails application from scratch
+  - Installing the necessary gems
+  - Pushing it up to a remote repository
+  - Deploying it to production
+- rails generate controller ControllerName <optional action names>
+- New routes are defined in the file config/routes.rb
+- Rails views can contain static HTML or embedded Ruby (ERb)
+- Automated testing allows us to write test suites that drive the development
+  of new features, allow for confident refractoring, and catch regressions
+- Test-driven development uses a "Red, Green, Refactor" cycle
+- Rails layouts allow the use of a common template for pages in our application,
+  thereby eliminating duplication
